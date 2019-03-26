@@ -2,6 +2,10 @@
 
 > generate html code
 
+# Feature
+
+- Support nesting tag
+
 # Usage
 
 ```
