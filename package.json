@@ -1,7 +1,14 @@
 {
-  "name": "html-generator",
-  "version": "0.0.0",
+  "name": "html-template-generator",
+  "version": "0.0.1",
   "description": "generate html code",
+  "main": "dist/index.js",
+  "keywords": [
+    "template",
+    "html",
+    "code",
+    "generate"
+  ],
   "scripts": {
     "lint": "xo",
     "dev": "tsc --watch",
