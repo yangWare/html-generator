@@ -1,9 +1,9 @@
-declare interface HtmlTagAttr {
+export declare interface HtmlTagAttr {
   // 为null代表是无值属性，表现形式： <input disabled></input>
   [attrName: string]: string | null
 }
 
-declare interface HtmlTag {
+export declare interface HtmlTag {
   tag?: string
   attrs?: HtmlTagAttr
   children?: HtmlTag[]
@@ -11,7 +11,7 @@ declare interface HtmlTag {
   selfClose?: boolean
 }
 
-declare interface Options {
+export declare interface Options {
   quotes: string
 }
 
