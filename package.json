@@ -1,6 +1,6 @@
 {
   "name": "template-tag-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generate html code",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,7 +17,7 @@
     "test": "ava"
   },
   "repository": {
-    "url": "yangware/html-generator",
+    "url": "yangware/template-tag-generator",
     "type": "git"
   },
   "author": "yangware<495903417@qq.com>",
@@ -55,7 +55,10 @@
       "import/no-unassigned-import": "off",
       "typescript/explicit-function-return-type": "off",
       "no-throw-literal": "off"
-    }
+    },
+    "ignores": [
+      "./dist"
+    ]
   },
   "husky": {
     "hooks": {
