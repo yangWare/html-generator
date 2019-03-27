@@ -1,6 +1,6 @@
 {
   "name": "template-tag-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generate html code",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
